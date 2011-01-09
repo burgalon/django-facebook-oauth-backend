@@ -12,3 +12,6 @@ h3. Installation
 # In your urls.py add:
     url(r'^accounts/', include('facebook.auth.urls'))
 # You might want to take a look at facebook/auth/views.py and change the 'scope' parameter according to the permissions your application needs (http://developers.facebook.com/docs/authentication/permissions)
+
+h3. Notes:
+# Currently the code is built for Google App Engine depending only on urlfetch This is needed in order to pass the 'deadline' parameter to avoid timeout issues with Facebook API. However this could be easily changed to use urllib.open()
