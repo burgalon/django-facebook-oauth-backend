@@ -1,4 +1,4 @@
-h1. Facebook authroziation bacend for Facebook
+h1. Facebook authorization backend for Facebook
 
 h3. Based on the original SDK published https://github.com/facebook/python-sdk
 
@@ -14,4 +14,4 @@ h3. Installation
 # You might want to take a look at facebook/auth/views.py and change the 'scope' parameter according to the permissions your application needs (http://developers.facebook.com/docs/authentication/permissions)
 
 h3. Notes:
-# Currently the code is built for Google App Engine depending only on urlfetch This is needed in order to pass the 'deadline' parameter to avoid timeout issues with Facebook API. However this could be easily changed to use urllib.open()
+* Currently the code is built for Google App Engine depending only on urlfetch This is needed in order to pass the 'deadline' parameter to avoid timeout issues with Facebook API. However this could be easily changed to use urllib.open()
